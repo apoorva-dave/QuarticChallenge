@@ -4,8 +4,8 @@
 
 The steps for developing the binary classifier is as follows:
 
-1. Load data
-2. Selecting the top K features ( here 30) using SelectKBest algorithm
+1. Load and preprocess data
+2. Selecting the top K features (here 30) using SelectKBest algorithm
 3. StratifiedShuffleSplit is done to handle imbalanced dataset
 4. PCA is applied to reduce the dimension of the data capturing 95% variance.
 5. Finally hypertuned logistic regression model is developed.
